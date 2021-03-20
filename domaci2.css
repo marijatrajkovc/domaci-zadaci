@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-text-wrapper{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-text-wrapper > div,
+.image-text-wrapper > img {
+    height: 500px;
+    width: 50%;
+}
+
+.image-text-wrapper > div {
+    background-color: blueviolet;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
