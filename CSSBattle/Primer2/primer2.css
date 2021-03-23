@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+.wrapper {
+  display: flex;
+  background: #62374e;
+  height: 100vh;
+}
+
+.div1,
+.div2 {
+  display: flex;
+  flex: 1;
+}
+.div1 > div,
+.div2 > div {
+  background: #fdc57b;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div1 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.div2 {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
