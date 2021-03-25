@@ -9,13 +9,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.wrapper {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
 }
 
@@ -34,11 +27,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #4caab3;
-  height: 20vw;
-  width: 20vw;
-  border: 10vw solid;
-  border-color: #222730;
+  height: 15vw;
+  width: 15vw;
+  border: 10vw solid #222730;
   transform: rotate(45deg);
 }
 
