@@ -6,7 +6,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Libre+Baskerville&display=swap");
 
 .wrapper {
-  /* height: 100vh; */
   display: block;
   border-top: solid 10px rgba(19, 67, 71, 0.9);
   background: #fff;
