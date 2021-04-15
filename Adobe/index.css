@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  height: 100vh;
+  position: relative;
+  background-image: url("asets/zachary.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.wrapper::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: rgba(73, 33, 173, 0.83);
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  background: #fff;
+  width: 100%;
+  height: 40px;
+}
+
+.slike {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+}
+
+img {
+  display: flex;
+  height: 40px;
+  width: 45px;
+}
+
+.menu1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 150px;
+  width: 150px;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  border: 2px solid black;
+}
+
+.menu1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (min-width: 375px) {
+}
+
+@media screen and (min-width: 992px) {
+  .header {
+    width: 100%;
+    height: 150px;
+    background: none;
+  }
+
+  .learner {
+    height: 50px;
+    width: 50px;
+    margin-top: 40px;
+  }
+
+  .slike > div:nth-child(2) {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 30%;
+    border-bottom-left-radius: 30%;
+    height: 150px;
+    width: 200px;
+  }
+
+  .burger,
+  .bell {
+    display: none;
+  }
+
+  .menu1 {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    border: none;
+    margin-left: 60px;
+     }
+
+     a{
+         margin-right: 10px;
+         font-size: larger;
+     }
+
+     .menu1 > a:nth-child(1){
+         color: #fff;
+         text-decoration: underline;
+     }
+
+  
+
+}
