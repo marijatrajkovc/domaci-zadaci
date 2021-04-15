@@ -79,9 +79,13 @@
   color: #5f41b6;
 }
 
-.menu1 > a:nth-child(2),
-.menu1 > a:nth-child(3) {
+.menu1 > a:nth-child(2) {
   color: #c6c6d4;
+  font-weight: bold;
+}
+
+.menu1 > a:nth-child(3){
+    color: #c6c6d4;
 }
 
 @media screen and (min-width: 375px) {
@@ -138,6 +142,7 @@
   .menu1 > a:nth-child(2) {
     height: 19px;
     width: 75px;
+    font-weight: normal;
   }
 
   .menu > a:nth-child(3) {
